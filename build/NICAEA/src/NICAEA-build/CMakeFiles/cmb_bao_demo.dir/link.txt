@@ -1,1 +1,0 @@
-/usr/bin/cc -Wall -Wuninitialized -pedantic -O3 -fPIC -std=gnu9x  -rdynamic CMakeFiles/cmb_bao_demo.dir/Demo/cmb_bao_demo.c.o  -o cmb_bao_demo  -L/usr/local/lib -Wl,-rpath,/usr/local/lib: libnicaea.a -lfftw3 -lgsl -lgslcblas -lm 

@@ -1,3 +1,0 @@
-repository='external project URL'
-module='http://www.cosmostat.org/wp-content/uploads/2014/12/nicaea_2.5.tgz'
-tag='MD5=27c4d6d46f234133fc69130e6460c2d4'

@@ -1,1 +1,0 @@
-/usr/bin/cc -Wall -Wuninitialized -pedantic -O3 -fPIC -std=gnu9x  -rdynamic CMakeFiles/decomp_eb_demo.dir/Demo/decomp_eb_demo.c.o  -o decomp_eb_demo  -L/usr/local/lib -Wl,-rpath,/usr/local/lib: libnicaea.a -lfftw3 -lgsl -lgslcblas -lm 

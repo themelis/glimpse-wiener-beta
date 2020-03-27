@@ -1,1 +1,0 @@
-/usr/bin/cc -Wall -Wuninitialized -pedantic -O3 -fPIC -std=gnu9x  -rdynamic CMakeFiles/halomodeldemo.dir/Demo/halomodeldemo.c.o  -o halomodeldemo  -L/usr/local/lib -Wl,-rpath,/usr/local/lib: libnicaea.a -lfftw3 -lgsl -lgslcblas -lm 

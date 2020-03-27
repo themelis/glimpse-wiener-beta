@@ -1,3 +1,0 @@
-repository='https://github.com/CosmoStat/Sparse2D.git'
-module=''
-tag=''
