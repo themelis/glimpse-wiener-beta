@@ -1,0 +1,4 @@
+
+##
+this version uses shear binning, and replaces nfft from glimpse! major change 
+then wiener filtering is performed in the shear residuals

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/local/home/themelis/Development/Cpp/glimpse-wiener-beta/build/CMakeFiles/SPARSE2D"
+		},
+		{
+			"file" : "/local/home/themelis/Development/Cpp/glimpse-wiener-beta/build/CMakeFiles/SPARSE2D.rule"
+		},
+		{
+			"file" : "/local/home/themelis/Development/Cpp/glimpse-wiener-beta/build/CMakeFiles/SPARSE2D-complete.rule"
+		},
+		{
+			"file" : "/local/home/themelis/Development/Cpp/glimpse-wiener-beta/build/SPARSE2D/src/SPARSE2D-stamp/SPARSE2D-install.rule"
+		},
+		{
+			"file" : "/local/home/themelis/Development/Cpp/glimpse-wiener-beta/build/SPARSE2D/src/SPARSE2D-stamp/SPARSE2D-mkdir.rule"
+		},
+		{
+			"file" : "/local/home/themelis/Development/Cpp/glimpse-wiener-beta/build/SPARSE2D/src/SPARSE2D-stamp/SPARSE2D-download.rule"
+		},
+		{
+			"file" : "/local/home/themelis/Development/Cpp/glimpse-wiener-beta/build/SPARSE2D/src/SPARSE2D-stamp/SPARSE2D-update.rule"
+		},
+		{
+			"file" : "/local/home/themelis/Development/Cpp/glimpse-wiener-beta/build/SPARSE2D/src/SPARSE2D-stamp/SPARSE2D-patch.rule"
+		},
+		{
+			"file" : "/local/home/themelis/Development/Cpp/glimpse-wiener-beta/build/SPARSE2D/src/SPARSE2D-stamp/SPARSE2D-configure.rule"
+		},
+		{
+			"file" : "/local/home/themelis/Development/Cpp/glimpse-wiener-beta/build/SPARSE2D/src/SPARSE2D-stamp/SPARSE2D-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"SPARSE2D"
+		],
+		"name" : "SPARSE2D"
+	}
+}

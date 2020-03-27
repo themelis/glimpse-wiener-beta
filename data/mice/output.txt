@@ -1,0 +1,51 @@
+Warning: No redshift specified for the lens, ignoring source redsfhits
+Number of pixels : 256
+37306 zero galaxy pixels out of 65536
+Using following reconstruction parameters :
+Number of scales         : 5
+Regularisation parameter : 2.5
+Allocate wavelet transform, 256
+nframes is : 8
+create a starlet with nscales: 8
+inside starlet constructor, Nx: 256 Ny: 256 nscales:8
+inside starlet constructor, Nx: 256 Ny: 256 nscales:8
+starlet constructed
+starlet created!
+first transform successful
+frames_fwd computed !
+frames_bkwd computed !
+arrived here, frames_bkwd is 0.859071frames_fwd is 8.31119e-06
+Surf recon: wavelet object Allocated 
+Surf recon: nframes 8
+Surf recon: kappas initiallized 
+sig: 1
+Glimpse: surface reconstruction object allocated 
+Running wiener filtering
+arrived wiener filtering constructor
+before Wiener completed
+Wiener iteration :0
+Wiener iteration :50
+Wiener completed
+Computing thresholds
+ Results  of check: -1.45393 against -1.45393
+ Results  of check: 0.927928 against 0.927928
+step size main iteration : 0.333333
+Step size : 0.333333
+step size main iteration : 0.319428
+Step size : 0.319428
+Warning, reached maximum number of iterations field
+step size main iteration : 0.320361
+Step size : 0.320361
+Starting debiasing 
+step size main iteration : 0.305678
+Step size : 0.305678
+Iteration :0
+Iteration :100
+Iteration :200
+Iteration :300
+Iteration :400
+Glimpse completed
+before deleting wav object 
+before deleting wav object 
+fft_frame freed !
+wav object deleted 

@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -Wuninitialized -pedantic -O3 -fPIC -std=gnu9x  -rdynamic CMakeFiles/third_order_demo.dir/Demo/third_order_demo.c.o  -o third_order_demo  -L/usr/local/lib -Wl,-rpath,/usr/local/lib: libnicaea.a -lfftw3 -lgsl -lgslcblas -lm 

@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -Wuninitialized -pedantic -O3 -fPIC -std=gnu9x  -rdynamic CMakeFiles/sn1ademo.dir/Demo/sn1ademo.c.o  -o sn1ademo  -L/usr/local/lib -Wl,-rpath,/usr/local/lib: libnicaea.a -lfftw3 -lgsl -lgslcblas -lm 

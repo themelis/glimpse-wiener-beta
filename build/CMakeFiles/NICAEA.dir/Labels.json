@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/local/home/themelis/Development/Cpp/glimpse-wiener-beta/build/CMakeFiles/NICAEA"
+		},
+		{
+			"file" : "/local/home/themelis/Development/Cpp/glimpse-wiener-beta/build/CMakeFiles/NICAEA.rule"
+		},
+		{
+			"file" : "/local/home/themelis/Development/Cpp/glimpse-wiener-beta/build/CMakeFiles/NICAEA-complete.rule"
+		},
+		{
+			"file" : "/local/home/themelis/Development/Cpp/glimpse-wiener-beta/build/NICAEA/src/NICAEA-stamp/NICAEA-install.rule"
+		},
+		{
+			"file" : "/local/home/themelis/Development/Cpp/glimpse-wiener-beta/build/NICAEA/src/NICAEA-stamp/NICAEA-mkdir.rule"
+		},
+		{
+			"file" : "/local/home/themelis/Development/Cpp/glimpse-wiener-beta/build/NICAEA/src/NICAEA-stamp/NICAEA-download.rule"
+		},
+		{
+			"file" : "/local/home/themelis/Development/Cpp/glimpse-wiener-beta/build/NICAEA/src/NICAEA-stamp/NICAEA-update.rule"
+		},
+		{
+			"file" : "/local/home/themelis/Development/Cpp/glimpse-wiener-beta/build/NICAEA/src/NICAEA-stamp/NICAEA-patch.rule"
+		},
+		{
+			"file" : "/local/home/themelis/Development/Cpp/glimpse-wiener-beta/build/NICAEA/src/NICAEA-stamp/NICAEA-configure.rule"
+		},
+		{
+			"file" : "/local/home/themelis/Development/Cpp/glimpse-wiener-beta/build/NICAEA/src/NICAEA-stamp/NICAEA-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"NICAEA"
+		],
+		"name" : "NICAEA"
+	}
+}
