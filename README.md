@@ -1,8 +1,9 @@
- Glimpse
+WGlimpse
 
-Glimpse is a sparsity based mass-mapping algorithm. See the
+WGlimpse is a sparsity based mass-mapping algorithm. See the
 [Glimpse page](http://www.cosmostat.org/software/glimpse) on the
-CosmoStat website for more information.
+CosmoStat website for more information. The code computes the Wiener 
+estimate and then runs Glimpse-on-a-grid on the shear residuals 
 
 ## Installation
 
@@ -43,13 +44,21 @@ This will create a Glimpse executable in the build directory.
 
 ## 2D Usage
 
-Glimpse expects input shear and/or flexion data as columns in a FITS file. A simple python script for converting .txt files to FITS is provided in the *utils* folder.
 
 All the options of the reconstruction algorithm can be specified in a *config.ini* file such as the one provided in the *example* directory.
 
-Glimpse can be run with the following command line:
 
-    $ glimpse config.ini cat_3_0.fits kappa.fits
+WGlimpse can be run with the following command line:
 
-Where *kappa.fits* is the reconstructed convergence map (scaled for sources at infinite redshift) and *cat_3_0.fits* is the input data file.
+    $ rm *.fits; ./glimpse ../data/mice/fits_files/config2d.ini ../data/mice/fits_files/mice_g1_map_0.fits ../data/mice/fits_files/mice_g2_map_0.fits ../data/mice/fits_files/mice_cosmosis_ps1d_kappa.fits ../data/mice/fits_files/mice_noisecov_map.fits ../data/mice/fits_files/kappa_mice_fast_glimpse_0.fits > ../data/mice/output.txt
+
+Where the input arguments are
+
+config2d.ini                   -> the config file for fast glimpse
+mice_g1_map_0.fits             -> the binned g1 map
+mice_g2_map_0.fits             -> the binned g2 map
+mice_cosmosis_ps1d_kappa.fits  -> the 1d powerspectrum for the mice map based on the cosmosis module
+mice_noisecov_map.fits         -> the noise covariance map having a DES-like mask
+kappa_mice_fast_glimpse_0.fits -> the output file
+
 
